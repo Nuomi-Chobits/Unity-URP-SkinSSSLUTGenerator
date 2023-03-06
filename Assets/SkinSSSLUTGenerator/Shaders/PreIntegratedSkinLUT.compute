@@ -51,7 +51,6 @@ float3 BakeSkinLUT(float2 uv)
     float3 scatteringFactor = float3(0.0, 0.0, 0.0);
     float3 normalizationFactor = float3(0.0, 0.0, 0.0);
 
-    [loop]
     for(float x = -PI * _IntegralInterval /2 ;x < PI * _IntegralInterval /2 ;x+=PI*0.001)
     {
         float dis = 2.0 * R * sin(x/2);
