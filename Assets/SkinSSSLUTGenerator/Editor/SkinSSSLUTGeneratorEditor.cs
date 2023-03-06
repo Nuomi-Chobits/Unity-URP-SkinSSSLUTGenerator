@@ -3,7 +3,7 @@ using UnityEditor;
 
 public class SkinSSSLUTGeneratorEditor : EditorWindow
 {
-    [MenuItem("Tools/SkinSSSLUTGenerator",false,1000)]
+    [MenuItem("Tools/SkinSSSLUTGenerator", false, 1000)]
     private static void MenuGeneratorLUT()
     {
         GetWindow<SkinSSSLUTGeneratorEditor>("Skin SSS LUT Generator");
@@ -96,7 +96,7 @@ public class SkinSSSLUTGeneratorEditor : EditorWindow
         }
         EditorGUILayout.EndHorizontal();
         EditorGUILayout.Space();
-        var rect = EditorGUILayout.GetControlRect(false, position.height, GUIStyle.none);
+        var rect = EditorGUILayout.GetControlRect(true, position.height - 110);
         if (SSSLUT != null)
         {
             EditorGUI.DrawPreviewTexture(rect, SSSLUT);
