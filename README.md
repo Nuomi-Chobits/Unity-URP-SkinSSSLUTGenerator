@@ -2,7 +2,7 @@
 
   PreIntegrate Skin SSS LUT Generator for Unity.
   
-  <div align=center><img src="https://user-images.githubusercontent.com/89976115/223177908-90b99e50-567e-49d6-bff5-754945c0ba8d.gif" width="50%" alt="Homework0"></div>!
+  <div align=center><img src="https://user-images.githubusercontent.com/89976115/223177908-90b99e50-567e-49d6-bff5-754945c0ba8d.gif" width="50%" alt="Homework0"></div>
   
 # Learn More
 
